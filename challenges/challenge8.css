@@ -1,0 +1,99 @@
+.block-input {
+    display: block;
+    margin-bottom: 5px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    height: 18px;
+}
+
+.question {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.google-page {
+    text-align: center
+}
+
+.searchbar {
+    width: 400px;
+    height: 28px;
+    border-radius: 12.5px;
+    border: none;
+    box-shadow: 0px 0px 4px rgb(189, 188, 188);
+    font-family: Arial;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.google-logo {
+    width: 300px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.google-button {
+    border: none;
+    background-color: rgb(240, 239, 239);
+    padding: 10px 15px;
+}
+
+.name-input {
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    border-color: grey;
+    border-radius: 4px;
+    padding-left: 5px;
+    width: 110px;
+    margin-bottom: 8px;
+}
+
+.mail-input {
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    border-color: grey;
+    border-radius: 4px;
+    padding-left: 5px;
+    width: 233px;
+    margin-bottom: 8px;
+}
+
+.sign-button {
+    color: white;
+    background-color: rgb(95, 134, 243);
+    border-radius: 4px;
+    border: none;
+    padding: 6px 10px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    width: 243px;
+    height: 30px;
+}
+
+.uber-input {
+    display: block;
+    background-color: rgb(245, 241, 241);
+    border: none;
+    margin-bottom: 5px;
+    height: 40px;
+    padding-left: 10px;
+    width: 300px;
+}
+
+.request-button,
+.schedule-button {
+    padding: 10px 15px;
+    border: none;
+    margin-top: 20px;
+}
+
+.request-button {
+    color: white;
+    background-color: black;
+}

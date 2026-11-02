@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Challenge 7 Textbox</title>
+
+  <style>
+    p {
+      font-family: Arial;
+    }
+
+    .rounded-border {
+      border-color: rgb(214, 210, 210);
+      border-style: solid;
+      border-radius: 6px;
+      border-width: 1px;
+      width: 120px;
+      height: 25px;
+    }
+
+    ::placeholder {
+      color: rgb(153, 149, 149);
+      padding-left: 8px;
+    }
+
+    .shadow {
+      width: 300px;
+      height: 25px;
+      border-radius: 12.5px;
+      border: none;
+      box-shadow: 0px 0px 4px rgb(189, 188, 188);
+    }
+
+    .linkedIn-input {
+      border-radius: 4px;
+      border-style: solid;
+      border-width: 1px;
+      height: 20px;
+      width: 200px;
+    }
+
+    .linkedIn-button {
+      color: white;
+      border: none;
+      background-color: rgb(72, 133, 226);
+      padding: 15px 90px;
+      border-radius: 46px;
+      font-size: 18px;
+    }
+
+    .cat-icon {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 30px;
+      vertical-align: middle;
+    }
+
+    .question {
+      vertical-align: middle;
+      font-family: Arial;
+      color: grey;
+      margin-left: 10px;
+    }
+
+    .tweet-button {
+      color: white;
+      background-color: rgb(0, 140, 255);
+      border-radius: 13px;
+      border: none;
+      padding: 6px 10px;
+      font-family: Arial;
+      font-weight: bold;
+      opacity: 0.6;
+      margin-left: 100px;
+      vertical-align: middle;
+    }
+
+    .tweet-div {
+      width: 370px;
+      padding: 10px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 5px;
+      border-color: lightgrey;
+      box-shadow: 0px 0px 5px grey;
+    }
+
+  </style>
+</head>
+
+<body>
+  <input class="rounded-border" type="text" placeholder="Search">
+  <hr>
+
+  <input class="shadow" type="text" placeholder="Search Google or type a URL"></input>
+  <hr>
+
+  <p style="color: grey; margin-bottom: 4px; font-size: 14px;">Email</p>
+  <input class="linkedIn-input" type="text">
+  <p style="color: grey; font-size: 14px;">By clicking Agree &amp; Join, you aggree to the Privacy Policy.</p>
+  <button class="linkedIn-button">Agree &amp; Join</button>
+  <hr>
+
+
+  <div class="tweet-div">
+    <img class="cat-icon" src="images/cat.jpg">
+    <span class="question">What's happening? </span>
+    <button class="tweet-button">Tweet</button>
+
+  </div>
+
+
+
+</body>
+
+</html>

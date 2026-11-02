@@ -1,0 +1,75 @@
+.grid-11a {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.grid-11b {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.grid-11c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+p,
+button {
+    font-family: Arial;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 18px;
+}
+
+.card {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px grey;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+.friends-row {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 15px
+}
+
+.friend-count {
+    color: rgb(95, 95, 95);
+    font-size: 14px;
+
+}
+
+.add-button {
+    color: white;
+    background-color: rgba(41, 108, 233, 0.884);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}

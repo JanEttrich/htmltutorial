@@ -1,0 +1,100 @@
+div,
+button {
+    font-family: Arial;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.profile-pic {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 18px;
+    margin-right: 10px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.add-button {
+    background-color: rgb(55, 114, 220);
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 0px;
+}
+
+.message-button {
+    background-color: rgb(240 240 240);
+    border: none;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 12px;
+}
+
+/*Challenge 14f*/
+
+.icon-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: rgb(32, 34, 37);
+    padding: 14px 12px;
+    position: fixed;
+    top: 80px;
+    bottom: 0px;
+}
+
+.profile-pic2 {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.info-sidebar {
+    background-color: rgb(48, 49, 54);
+    position: fixed;
+    top: 80px;
+    bottom: 0px;
+    left: 74px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 16px;
+    color: grey;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus-button {
+    background-color: rgb(48, 49, 54);
+    border: none;
+    color: grey;
+    font-size: 26px;
+}
+
+.channels {
+    font-size: 15px;
+}

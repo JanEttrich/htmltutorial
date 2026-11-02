@@ -1,0 +1,143 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media(max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-preview {}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-time {
+  position: absolute;
+  bottom: 11px;
+  right: 4px;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 2px
+}
+
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.channel-picture {
+  position: relative;
+}
+
+.profile-picture-container:hover .channel-tooltip {
+  opacity: 1;
+}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50%;
+}
+
+.channel-tooltip {
+  padding: 8px;
+  position: absolute;
+  bottom: -25px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: white;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+
+.tooltip-picture {
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.tooltip-picture:hover {}
+
+.tooltip-channel-name {
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+  margin-bottom: 4px;
+
+}
+
+.tooltip-channel-subs {
+  font-size: 11px;
+  color: grey;
+}
+
+
+.video-info {}
+
+.video-title-link {
+  color: black;
+  text-decoration: none;
+}
+
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+@media(min-width: 1000px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96)
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+@media (min-width: 1000px) {
+  .video-author,
+  .video-stats {
+    font-size: 14px;
+  }
+}
